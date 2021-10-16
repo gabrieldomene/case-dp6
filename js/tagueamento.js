@@ -10,7 +10,7 @@ window.onload = () => {
 }
 
 const fireEvent = (category, action, label) => {
-    let s = ga('send', {
+    ga('send', {
         hitType: 'event',
         eventCategory: category,
         eventAction: action,
